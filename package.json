@@ -10,8 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "humanize-duration": "^3.33.2",
+    "quill": "^2.0.3",
+    "rc-progress": "^4.0.0",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.2",
+    "react-simple-star-rating": "^5.1.7",
+    "react-youtube": "^10.1.0",
+    "tailwindcss": "^4.2.2",
+    "uniqid": "^5.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
