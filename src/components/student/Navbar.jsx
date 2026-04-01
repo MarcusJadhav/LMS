@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className={`flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-36 border-b border-gray-500 py-4
      ${isCourseListPage ? 'bg-white' : 'bg-cyan-100/70'}`}>
 
-      <img src="./src/assets/logo.png" alt="logo" className='w-10 lg:w-32 sm:w-20 cursor-pointer' />
+      <img src="./../src/assets/logo.png" alt="logo" className='w-10 lg:w-32 sm:w-20 cursor-pointer' />
 
       <div className='hidden md:flex items-center gap-5 text-gray-500'>
         <div className='flex items-center gap-5'>
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
         {user ? <UserButton /> :
         <button onClick={()=> openSignIn()}>
-          <img src="./src/assets/user-icon.png" alt="user-icon" className='w-8 hover:cursor-pointer'>
+          <img src="./../src/assets/user-icon.png" alt="user-icon" className='w-8 hover:cursor-pointer'>
           </img>
           </button>
           }
