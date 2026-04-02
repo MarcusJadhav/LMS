@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets } from './../../assets/assets'
 import SearchBar from './../../components/student/SearchBar'
+import Companies from './../../components/student/Companies'
 
 const Hero = () => {
   return (
@@ -13,6 +14,7 @@ const Hero = () => {
     <p className='md:hidden text-gray-500 max-w-sm mx-auto'>We bring together world-class instructors, interactive content, and a supportive community to help you achieve your personal and professional goals.</p>
 
     <SearchBar />
+    <Companies />
     </div>
 
   )
