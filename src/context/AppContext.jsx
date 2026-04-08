@@ -12,6 +12,7 @@ export const AppContextProvider = (props) => {
     const navigate = useNavigate();
 
     const [allCourses, setAllCourses] = useState([]);
+    const [isEducator, setIsEducator] = useState(true); // Set to true for testing, change to false in production.
 
     // Fetch all courses
     const fetchAllCourses = async () => {
@@ -34,7 +35,7 @@ export const AppContextProvider = (props) => {
     }, [])
 
     const value = {
-        currency, allCourses, navigate, calculateAverageRating
+        currency, allCourses, navigate, calculateAverageRating, isEducator, setIsEducator
     };
 
     return (
