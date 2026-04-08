@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { useClerk, UserButton, useUser } from '@clerk/react'
 import { AppContext } from './../../context/AppContext'
+import { assets } from '../../assets/assets'
 
 const Navbar = () => {
 
@@ -17,7 +18,7 @@ const Navbar = () => {
      ${isCourseListPage ? 'bg-white' : 'bg-cyan-100/70'}`}>
 
       <div onClick={()=>{navigate('/')}} className='flex items-center gap-2 sm:gap-3 text-gray-800 cursor-pointer'> 
-      <img src="./../src/assets/logo.png" alt="logo" className='w-12 lg:w-12 sm:w-20 cursor-pointer' />
+      <img src={assets.logo1} alt="logo" className='w-12 lg:w-12 sm:w-20 cursor-pointer' />
       <h1 className='text-2xl font-bold cursor-pointer' >LMS</h1>
       </div>
 
