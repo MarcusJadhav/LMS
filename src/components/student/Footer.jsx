@@ -3,7 +3,7 @@ import { assets } from '../../assets/assets'
 
 const Footer = () => {
   return (
-     <footer className="bg-[#0B1A2B] text-gray-300 px-6 md:px-16 lg:px-24 py-12">
+     <footer className="bg-[#0B1A2B] text-gray-300 px-6 md:px-16 lg:px-24 py-5">
       
       {/* Top Section */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-500">
+      <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-500">
         © 2026 LMS. All Rights Reserved.
       </div>
     </footer>
